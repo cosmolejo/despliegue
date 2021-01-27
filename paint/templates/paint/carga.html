@@ -1,0 +1,95 @@
+<head>
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}} /static/paint.css">
+    <title>Face Generartor</title>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-zv4m {
+            border-color: #ffffff;
+            text-align: left;
+            vertical-align: top
+        }
+    </style>
+</head>
+
+
+<center>
+    <h1>Face Generartor</h1>
+</center>
+
+
+{% if img_obj %}
+
+
+<table class="tg">
+    <thead>
+        <tr>
+            <th class="tg-zv4m" style="text-align: center;">
+                <h2>
+                    boceto
+                </h3>
+            </th>
+            <th class="tg-zv4m" style="text-align: center;">
+                <h2>
+                    Rostro generado
+                </h3>
+            </th>
+        </tr>
+        <tr>
+            <th class="tg-zv4m">
+                <img src="{{ img_obj.image.url}}" alt="connect" width="640" height="400" style="text-align: center ;">
+            </th>
+            <th class="tg-zv4m">
+                <img src="{{STATIC_URL}} /static/img/{{face}}" alt="rostro generado" width="640" height="400"
+                    style="text-align: center ;">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+
+
+{% else %}
+<center>
+    <h3>Por favor carge un boceto</h3>
+    <img src="{{STATIC_URL}} /static/img/udea.png" id="model" width="640" height="400" style="text-align: center ;">
+</center>
+
+{% endif %}
+
+<center>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button id='1' style="text-align: center;" class="button5" type="submit">Cargar Boceto</button>
+    </form>
+</center>

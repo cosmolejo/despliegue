@@ -2,6 +2,7 @@ from django.http.response import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect, render
 from django.core.files import File
+from django.conf import settings
 
 from django.template.loader import get_template
 from django.template import RequestContext
@@ -15,13 +16,19 @@ import numpy as np
 from datetime import datetime
 import pytz
 
+import os
+
+
 from paint.face_generator import face_generator
 
+from .forms import ImageForm
+
+
 face = face_generator()
+CURR_DIR = os.getcwd()
 
 
 def home(request):
-
 
     return render(request, "paint/paintapp.html")
 
@@ -48,16 +55,19 @@ def save(request):
     background.paste(img, mask=img.split()[3])  # 3 is the alpha channel
 
     # background.show()
-    f_res = face.generate_face(img=background)
+    f_res = face.generate_face(background)
     f_res = f_res.resize((256, 256))
 
-    f_res.show(title='Rostro generado')
-   
-    #data_url = "data:image/png;base64," + image_data
+    f_res.show(title="Rostro generado")
+
+    # data_url = "data:image/png;base64," + image_data
 
     p = Pic(name=iname, data=idata, etnia=irace)
     p.save()
-    return render(request, "paint/paintapp.html", )
+    return render(
+        request,
+        "paint/paintapp.html",
+    )
 
 
 def gall(request):
@@ -77,4 +87,31 @@ def load(request, imgname):
     return render(request, "picload.html", {"posts": posts})
 
 
-# Create your views here.
+def image_upload_view(request):
+    """Process images uploaded by users"""
+    if request.method == "POST":
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            # Get the current instance object to display in the template
+            img_obj = form.instance
+            img = Image.open(CURR_DIR + img_obj.image.url)
+            img = img.resize((256, 256))
+            f_res = face.generate_face(img)
+            f_res = f_res.resize((256, 256))
+
+            # f_res.show(title="Rostro generado")
+            face_name = img_obj.image.url.split("/")[-1]
+            a = os.path.split(os.getcwd())[:-1][0]
+            print(a)
+            f_res.save(CURR_DIR + "/paint/static/img/" + face_name)
+
+            print(img_obj, img_obj.image.url)
+            return render(
+                request,
+                "paint/carga.html",
+                {"form": form, "img_obj": img_obj, "face": face_name},
+            )
+    else:
+        form = ImageForm()
+    return render(request, "paint/carga.html", {"form": form})
