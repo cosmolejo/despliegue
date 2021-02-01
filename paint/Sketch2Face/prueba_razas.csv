@@ -1,0 +1,123 @@
+id_,file,age_interval,gender,race,selected,reviewed,db,sr,filename,id,name
+0,fairfaces/train/100.jpg.png,20-29,Female,Asian,True,True,True,True,100.png,0.png,100
+43,fairfaces/val/10059.jpg.png,20-29,Female,Latino,True,True,True,True,10059.png,43.png,10059
+43,fairfaces/train/10059.jpg.png,40-49,Male,Latino,True,True,True,True,10059.png,43.png,10059
+77,fairfaces/train/1011.jpg.png,40-49,Female,Asian,True,True,True,True,1011.png,77.png,1011
+286,fairfaces/train/10441.jpg.png,20-29,Male,Latino,True,True,True,True,10441.png,286.png,10441
+883,fairfaces/val/1186.jpg.png,50-59,Male,Middle Eastern,True,True,True,True,1186.png,883.png,1186
+1291,fairfaces/train/13173.jpg.png,20-29,Male,Indian,True,True,True,True,13173.png,1291.png,13173
+1712,fairfaces/train/14640.jpg.png,20-29,Male,Black,True,True,True,True,14640.png,1712.png,14640
+1770,fairfaces/train/14860.jpg.png,30-39,Male,Asian,True,True,True,True,14860.png,1770.png,14860
+2479,fairfaces/train/17272.jpg.png,60-69,Male,Middle Eastern,True,True,True,True,17272.png,2479.png,17272
+3139,UTK/part2/18_1_1_20170114030424059.png,20-29,Female,Black,True,True,True,True,18_1_1_20170114030424059.png,3139.png,18_1_1_20170114030424059
+3351,fairfaces/train/19621.jpg.png,40-49,Male,Latino,True,True,True,True,19621.png,3351.png,19621
+3364,fairfaces/train/19680.jpg.png,30-39,Female,Latino,True,True,True,True,19680.png,3364.png,19680
+3476,UTK/part1/19_0_2_20170110225634087.png,20-29,Male,Asian,True,True,True,True,19_0_2_20170110225634087.png,3476.png,19_0_2_20170110225634087
+3773,fairfaces/train/20710.jpg.png,30-39,Male,Asian,True,True,True,True,20710.png,3773.png,20710
+3944,UTK/part2/20_1_0_20170117192932485.png,20-29,Female,White,True,True,True,True,20_1_0_20170117192932485.png,3944.png,20_1_0_20170117192932485
+4032,fairfaces/train/21039.jpg.png,30-39,Female,Asian,True,True,True,True,21039.png,4032.png,21039
+4250,fairfaces/train/21754.jpg.png,20-29,Female,Asian,True,True,True,True,21754.png,4250.png,21754
+4798,UTK/part1/22_0_0_20170104003954062.png,20-29,Male,White,True,True,True,True,22_0_0_20170104003954062.png,4798.png,22_0_0_20170104003954062
+4935,UTK/part1/22_1_2_20170104021444541.png,20-29,Female,Asian,True,True,True,True,22_1_2_20170104021444541.png,4935.png,22_1_2_20170104021444541
+5174,fairfaces/train/23495.jpg.png,20-29,Female,Middle Eastern,True,True,True,True,23495.png,5174.png,23495
+5625,fairfaces/train/24259.jpg.png,40-49,Male,White,True,True,True,True,24259.png,5625.png,24259
+6111,UTK/part1/24_1_2_20170104020224692.png,20-29,Female,Asian,True,True,True,True,24_1_2_20170104020224692.png,6111.png,24_1_2_20170104020224692
+6861,UTK/part2/25_1_0_20170117145120563.png,20-29,Female,White,True,True,True,True,25_1_0_20170117145120563.png,6861.png,25_1_0_20170117145120563
+7597,UTK/part2/26_0_2_20170116181220996.png,20-29,Male,Asian,True,True,True,True,26_0_2_20170116181220996.png,7597.png,26_0_2_20170116181220996
+8187,UTK/part1/26_1_3_20170104234454339.png,20-29,Female,Indian,True,True,True,True,26_1_3_20170104234454339.png,8187.png,26_1_3_20170104234454339
+8468,fairfaces/train/27348.jpg.png,40-49,Male,Latino,True,True,True,True,27348.png,8468.png,27348
+9789,UTK/part3/28_1_3_20170119144214613.png,20-29,Female,Indian,True,True,True,True,28_1_3_20170119144214613.png,9789.png,28_1_3_20170119144214613
+9855,fairfaces/train/29105.jpg.png,30-39,Male,Middle Eastern,True,True,True,True,29105.png,9855.png,29105
+10385,UTK/part3/29_1_3_20170119152650912.png,20-29,Female,Indian,True,True,True,True,29_1_3_20170119152650912.png,10385.png,29_1_3_20170119152650912
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Latino,True,True,True,True,30429.png,10522.png,30429
+10572,fairfaces/train/30584.jpg.png,30-39,Female,Black,True,True,True,True,30584.png,10572.png,30584
+10793,UTK/part2/30_0_0_20170117144004185.png,30-39,Male,White,True,True,True,True,30_0_0_20170117144004185.png,10793.png,30_0_0_20170117144004185
+10827,UTK/part1/30_0_1_20170104170359625.png,30-39,Male,Black,True,True,True,True,30_0_1_20170104170359625.png,10827.png,30_0_1_20170104170359625
+11748,UTK/part1/31_1_1_20170105001003876.png,30-39,Female,Black,True,True,True,True,31_1_1_20170105001003876.png,11748.png,31_1_1_20170105001003876
+11791,UTK/part1/31_1_3_20170109132020731.png,30-39,Female,Indian,True,True,True,True,31_1_3_20170109132020731.png,11791.png,31_1_3_20170109132020731
+12390,UTK/part2/32_0_3_20170116192300083.png,30-39,Male,Indian,True,True,True,True,32_0_3_20170116192300083.png,12390.png,32_0_3_20170116192300083
+13217,fairfaces/train/3428.jpg.png,30-39,Male,Black,True,True,True,True,3428.png,13217.png,3428
+13464,fairfaces/train/34866.jpg.png,20-29,Female,White,True,True,True,True,34866.png,13464.png,34866
+13506,fairfaces/train/34985.jpg.png,30-39,Male,Latino,True,True,True,True,34985.png,13506.png,34985
+14010,fairfaces/train/35615.jpg.png,30-39,Female,Black,True,True,True,True,35615.png,14010.png,35615
+14340,UTK/part2/35_0_1_20170113183124869.png,30-39,Male,Black,True,True,True,True,35_0_1_20170113183124869.png,14340.png,35_0_1_20170113183124869
+14749,fairfaces/train/36138.jpg.png,50-59,Female,Black,True,True,True,True,36138.png,14749.png,36138
+14809,fairfaces/train/36284.jpg.png,20-29,Female,White,True,True,True,True,36284.png,14809.png,36284
+14826,fairfaces/train/36326.jpg.png,40-49,Male,Latino,True,True,True,True,36326.png,14826.png,36326
+16016,fairfaces/train/38008.jpg.png,30-39,Male,Latino,True,True,True,True,38008.png,16016.png,38008
+16480,UTK/part2/38_0_0_20170117131159850.png,30-39,Male,White,True,True,True,True,38_0_0_20170117131159850.png,16480.png,38_0_0_20170117131159850
+16750,fairfaces/train/39275.jpg.png,30-39,Female,Latino,True,True,True,True,39275.png,16750.png,39275
+18646,fairfaces/train/4234.jpg.png,30-39,Male,Asian,True,True,True,True,4234.png,18646.png,4234
+18694,fairfaces/val/4244.jpg.png,30-39,Male,Asian,True,True,True,True,4244.png,18694.png,4244
+19163,fairfaces/train/43083.jpg.png,20-29,Female,Indian,True,True,True,True,43083.png,19163.png,43083
+19976,fairfaces/train/44539.jpg.png,20-29,Female,Black,True,True,True,True,44539.png,19976.png,44539
+20227,UTK/part3/44_0_3_20170119195210483.png,40-49,Male,Indian,True,True,True,True,44_0_3_20170119195210483.png,20227.png,44_0_3_20170119195210483
+20460,fairfaces/train/45463.jpg.png,40-49,Male,Middle Eastern,True,True,True,True,45463.png,20460.png,45463
+20645,fairfaces/train/45882.jpg.png,40-49,Male,White,True,True,True,True,45882.png,20645.png,45882
+21677,fairfaces/train/47342.jpg.png,20-29,Female,Indian,True,True,True,True,47342.png,21677.png,47342
+21751,fairfaces/train/47505.jpg.png,20-29,Male,Middle Eastern,True,True,True,True,47505.png,21751.png,47505
+21908,fairfaces/train/47846.jpg.png,40-49,Female,Latino,True,True,True,True,47846.png,21908.png,47846
+22066,UTK/part1/47_1_0_20170109220517890.png,40-49,Female,White,True,True,True,True,47_1_0_20170109220517890.png,22066.png,47_1_0_20170109220517890
+22113,fairfaces/train/48052.jpg.png,20-29,Female,Latino,True,True,True,True,48052.png,22113.png,48052
+22629,UTK/part2/48_1_1_20170113012552201.png,40-49,Female,Black,True,True,True,True,48_1_1_20170113012552201.png,22629.png,48_1_1_20170113012552201
+22773,fairfaces/train/49287.jpg.png,30-39,Female,Black,True,True,True,True,49287.png,22773.png,49287
+23111,UTK/part1/49_0_0_20170104204827251.png,40-49,Male,White,True,True,True,True,49_0_0_20170104204827251.png,23111.png,49_0_0_20170104204827251
+23519,fairfaces/train/50658.jpg.png,60-69,Male,Middle Eastern,True,True,True,True,50658.png,23519.png,50658
+23650,fairfaces/train/50946.jpg.png,50-59,Female,Latino,True,True,True,True,50946.png,23650.png,50946
+23862,UTK/part1/50_1_0_20170109220459927.png,49-60,Female,White,True,True,True,True,50_1_0_20170109220459927.png,23862.png,50_1_0_20170109220459927
+24225,fairfaces/train/51632.jpg.png,20-29,Female,Middle Eastern,True,True,True,True,51632.png,24225.png,51632
+25223,fairfaces/train/53283.jpg.png,30-39,Male,Black,True,True,True,True,53283.png,25223.png,53283
+26266,UTK/part3/54_0_3_20170119200624157.png,49-60,Male,Indian,True,True,True,True,54_0_3_20170119200624157.png,26266.png,54_0_3_20170119200624157
+26318,UTK/part1/54_1_0_20170110140410594.png,49-60,Female,White,True,True,True,True,54_1_0_20170110140410594.png,26318.png,54_1_0_20170110140410594
+26454,fairfaces/train/55238.jpg.png,40-49,Male,Indian,True,True,True,True,55238.png,26454.png,55238
+27038,fairfaces/train/56136.jpg.png,40-49,Female,Indian,True,True,True,True,56136.png,27038.png,56136
+29138,fairfaces/train/5980.jpg.png,30-39,Female,Black,True,True,True,True,5980.png,29138.png,5980
+29351,fairfaces/train/60143.jpg.png,20-29,Female,White,True,True,True,True,60143.png,29351.png,60143
+29855,UTK/part1/60_1_0_20170110140645753.png,59-70,Female,White,True,True,True,True,60_1_0_20170110140645753.png,29855.png,60_1_0_20170110140645753
+30122,fairfaces/val/6145.jpg.png,40-49,Male,Asian,True,True,True,True,6145.png,30122.png,6145
+30122,fairfaces/train/6145.jpg.png,50-59,Male,Black,True,True,True,True,6145.png,30122.png,6145
+30788,fairfaces/train/62739.jpg.png,20-29,Female,Middle Eastern,True,True,True,True,62739.png,30788.png,62739
+31206,fairfaces/train/63549.jpg.png,40-49,Male,Middle Eastern,True,True,True,True,63549.png,31206.png,63549
+31262,fairfaces/val/6367.jpg.png,20-29,Male,Asian,True,True,True,True,6367.png,31262.png,6367
+32857,fairfaces/train/66560.jpg.png,30-39,Female,White,True,True,True,True,66560.png,32857.png,66560
+33011,fairfaces/train/66859.jpg.png,30-39,Male,White,True,True,True,True,66859.png,33011.png,66859
+33607,fairfaces/train/67993.jpg.png,40-49,Male,Middle Eastern,True,True,True,True,67993.png,33607.png,67993
+33834,fairfaces/train/68366.jpg.png,20-29,Female,Latino,True,True,True,True,68366.png,33834.png,68366
+33961,fairfaces/train/68631.jpg.png,40-49,Female,Black,True,True,True,True,68631.png,33961.png,68631
+34293,fairfaces/train/69182.jpg.png,20-29,Female,Latino,True,True,True,True,69182.png,34293.png,69182
+34719,UTK/part1/69_1_0_20170110153425759.png,59-70,Female,White,True,True,True,True,69_1_0_20170110153425759.png,34719.png,69_1_0_20170110153425759
+35133,fairfaces/train/70857.jpg.png,20-29,Female,Middle Eastern,True,True,True,True,70857.png,35133.png,70857
+35487,fairfaces/train/71419.jpg.png,30-39,Female,Latino,True,True,True,True,71419.png,35487.png,71419
+35966,fairfaces/train/72438.jpg.png,20-29,Female,White,True,True,True,True,72438.png,35966.png,72438
+36056,fairfaces/val/7263.jpg.png,30-39,Male,Latino,True,True,True,True,7263.png,36056.png,7263
+36219,fairfaces/train/72960.jpg.png,20-29,Male,Indian,True,True,True,True,72960.png,36219.png,72960
+36229,fairfaces/train/72978.jpg.png,20-29,Male,Black,True,True,True,True,72978.png,36229.png,72978
+36325,fairfaces/train/7304.jpg.png,30-39,Female,Black,True,True,True,True,7304.png,36325.png,7304
+37134,fairfaces/train/74706.jpg.png,40-49,Female,Indian,True,True,True,True,74706.png,37134.png,74706
+37162,fairfaces/train/74763.jpg.png,40-49,Female,Indian,True,True,True,True,74763.png,37162.png,74763
+37772,fairfaces/train/75976.jpg.png,20-29,Male,Middle Eastern,True,True,True,True,75976.png,37772.png,75976
+37875,fairfaces/train/76044.jpg.png,20-29,Female,Asian,True,True,True,True,76044.png,37875.png,76044
+38085,fairfaces/train/76511.jpg.png,20-29,Male,Latino,True,True,True,True,76511.png,38085.png,76511
+38264,fairfaces/train/76897.jpg.png,20-29,Female,Indian,True,True,True,True,76897.png,38264.png,76897
+38799,fairfaces/train/78023.jpg.png,30-39,Female,Indian,True,True,True,True,78023.png,38799.png,78023
+39595,fairfaces/train/79679.jpg.png,20-29,Female,Asian,True,True,True,True,79679.png,39595.png,79679
+39640,fairfaces/train/79757.jpg.png,30-39,Male,Indian,True,True,True,True,79757.png,39640.png,79757
+39968,fairfaces/train/80439.jpg.png,20-29,Female,Middle Eastern,True,True,True,True,80439.png,39968.png,80439
+40063,fairfaces/train/80626.jpg.png,20-29,Male,Middle Eastern,True,True,True,True,80626.png,40063.png,80626
+40210,fairfaces/train/8094.jpg.png,20-29,Female,Asian,True,True,True,True,8094.png,40210.png,8094
+40656,fairfaces/val/8181.jpg.png,30-39,Male,Latino,True,True,True,True,8181.png,40656.png,8181
+40985,fairfaces/train/82547.jpg.png,30-39,Male,Middle Eastern,True,True,True,True,82547.png,40985.png,82547
+41003,fairfaces/val/8259.jpg.png,30-39,Male,Asian,True,True,True,True,8259.png,41003.png,8259
+41300,fairfaces/train/83205.jpg.png,40-49,Female,Middle Eastern,True,True,True,True,83205.png,41300.png,83205
+41518,fairfaces/val/8372.jpg.png,20-29,Male,Middle Eastern,True,True,True,True,8372.png,41518.png,8372
+41587,fairfaces/train/83850.jpg.png,20-29,Male,Latino,True,True,True,True,83850.png,41587.png,83850
+42147,fairfaces/train/85080.jpg.png,20-29,Male,Indian,True,True,True,True,85080.png,42147.png,85080
+42386,fairfaces/train/85589.jpg.png,30-39,Female,Middle Eastern,True,True,True,True,85589.png,42386.png,85589
+42386,fairfaces/train/85589.jpg.png,30-39,Female,Middle Eastern,True,True,True,True,85589.png,42386.png,85589
+42417,fairfaces/train/85659.jpg.png,20-29,Male,Indian,True,True,True,True,85659.png,42417.png,85659
+42946,fairfaces/train/86708.jpg.png,40-49,Female,Black,True,True,True,True,86708.png,42946.png,86708
+43157,fairfaces/val/8951.jpg.png,30-39,Male,Asian,True,True,True,True,8951.png,43157.png,8951
+43952,CFD/AM-251/CFD-AM-251-124-N.jpg,20-29,Male,Asian,True,True,False,False,CFD-AM-251-124-N.png,43952.png,CFD-AM-251-124-N
+43979,CFD/BF-027/CFD-BF-027-002-N.jpg,30-39,Female,Black,True,True,False,False,CFD-BF-027-002-N.png,43979.png,CFD-BF-027-002-N
+44094,CFD/BM-041/CFD-BM-041-030-F.jpg,30-39,Male,Black,True,True,False,False,CFD-BM-041-030-F.png,44094.png,CFD-BM-041-030-F
+44286,CFD/WF-028/CFD-WF-028-023-N.jpg,20-29,Female,White,True,True,False,False,CFD-WF-028-023-N.png,44286.png,CFD-WF-028-023-N

@@ -21,11 +21,15 @@
 
 
 
-	<canvas id="a" width="640" height="400" style="border:4px solid green;text-align: left"></canvas>
-	<img src="{{STATIC_URL}} /static/img/udea.png" id="model" width="640" height="400"
+	<canvas id="a" width="640" height="640" style="border:4px solid green;text-align: left"></canvas>
+	<img src="{{STATIC_URL}} /static/img/udea.png" id="model" width="700" height="650"
 		style="text-align: left ;"></canvas>
 
-
+	<script>
+		function cargar_img(){
+			window.location.href='{% url "cargar" %}';	
+		}
+	</script>
 
 	<center>
 		<br>
@@ -33,6 +37,8 @@
 		<!-- <button id='9' class="button2" onclick="spray()">Difuminado</button> -->
 		<button id='8' class="button3" onclick="erase()">Borrador</button>
 		<button id='1' class="button5" onclick="clrscr()">Limpiar</button>
+		<button id='9' class="button2" onclick="cargar_img()">Cargar imágen</button>
+
 
 		<br>
 		<br>
@@ -44,7 +50,8 @@
 			</div>
 		</form>
 		<br>
-		<form name="etnia" action="">
+
+		<form style="display: none;" name="etnia" action="">
 			<label for="race">Elige la etnia del rostro: </label>
 			<select id="race" name="cars">
 				<option value="latin">Latino</option>

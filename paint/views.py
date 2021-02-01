@@ -15,9 +15,15 @@ import numpy as np
 from datetime import datetime
 import pytz
 
-from paint.face_generator import face_generator
+import os
 
-face = face_generator()
+import numpy as np
+from paint.Sketch2Face.FaceGenerator import FaceGenerator
+
+from .forms import ImageForm
+
+face = FaceGenerator()
+CURR_DIR = os.getcwd()
 
 
 def home(request):
@@ -48,8 +54,8 @@ def save(request):
     background.paste(img, mask=img.split()[3])  # 3 is the alpha channel
 
     # background.show()
-    f_res = face.generate_face(img=background)
-    f_res = f_res.resize((256, 256))
+    f_res = face.generate_face(sketch=background)
+    f_res = Image.fromarray(np.uint8(f_res))
 
     f_res.show(title='Rostro generado')
    
@@ -76,5 +82,32 @@ def load(request, imgname):
     ]
     return render(request, "picload.html", {"posts": posts})
 
+def image_upload_view(request):
+    """Process images uploaded by users"""
+    if request.method == "POST":
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            # Get the current instance object to display in the template
+            img_obj = form.instance
+            img = Image.open(CURR_DIR + img_obj.image.url)
+            img = img.resize((256, 256))
+            f_res = face.generate_face(img)
+            f_res = Image.fromarray(np.uint8(f_res))
+            f_res = f_res.resize((256, 256))
 
-# Create your views here.
+            # f_res.show(title="Rostro generado")
+            face_name = img_obj.image.url.split("/")[-1]
+            a = os.path.split(os.getcwd())[:-1][0]
+            print(a)
+            f_res.save(CURR_DIR + "/paint/static/img/" + face_name)
+
+            print(img_obj, img_obj.image.url)
+            return render(
+                request,
+                "paint/carga.html",
+                {"form": form, "img_obj": img_obj, "face": face_name},
+            )
+    else:
+        form = ImageForm()
+    return render(request, "paint/carga.html", {"form": form})

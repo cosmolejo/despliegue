@@ -1,0 +1,17 @@
+python test.py \
+--dataroot ./datasets/Test/ \
+--name race_test_2 \
+--test_csv \
+--race \
+--label_nc 0 \
+--no_instance \
+--ngf 48 \
+--resize_or_crop scale_width \
+--loadSize 256 \
+--fineSize 256 \
+--gpu_ids 0 \
+--batchSize 1 \
+--gfm \
+--gfm_layer 0,1,2,3 \
+--sap_branches 1,5,9,13 \
+--results_dir ./results 

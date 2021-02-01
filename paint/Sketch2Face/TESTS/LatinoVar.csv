@@ -1,0 +1,7 @@
+id_,file,age_interval,gender,race,selected,reviewed,db,sr,filename,id,name
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Latino,True,True,True,True,30429.png,10522.png,30429
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Asian,True,True,True,True,30429.png,10522.png,30429
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Middle Eastern,True,True,True,True,30429.png,10522.png,30429
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Indian,True,True,True,True,30429.png,10522.png,30429
+10522,fairfaces/train/30429.jpg.png,20-29,Male,Black,True,True,True,True,30429.png,10522.png,30429
+10522,fairfaces/train/30429.jpg.png,20-29,Male,White,True,True,True,True,30429.png,10522.png,30429

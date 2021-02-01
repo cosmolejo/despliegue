@@ -1,0 +1,19 @@
+python ./train.py \
+--name race_test_1 \
+--dataroot ./datasets/race_test_1/ \
+--continue_train \
+--tf_log \
+--no_instance --ngf 48 \
+--gpu_ids 0 \
+--race_loss_opt1  \
+--resize_or_crop scale_width \
+--loadSize 256 \
+--fineSize 256 \
+--batchSize 4 \
+--gfm \
+--race \
+--gfm_layer 0,1,2,3 \
+--sap_branches 1,5,9,13 \
+--niter_fix_global 0 \
+--niter 45 \
+--niter_decay 15  

@@ -1,11 +1,9 @@
 from django import forms
-from .models import Pic
+from .models import Image
 
 
 class ImageForm(forms.ModelForm):
     """Form for the image model"""
-
     class Meta:
-        model = Pic
-        fields = ['data','etnia']
-        widgets = {'data': forms.HiddenInput()}
+        model = Image
+        fields = ('title', 'image')

@@ -59,7 +59,7 @@ function save() {
     $.post("/save/", {
         'data': document.getElementById("a").toDataURL("image/png").replace("image/png", "image/octet-stream"),
         'race': document.getElementById("race").value
-    }, function (data, status) { alert("saved") });
+    });
 
 
 }

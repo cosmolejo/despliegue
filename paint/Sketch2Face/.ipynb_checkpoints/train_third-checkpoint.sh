@@ -1,0 +1,20 @@
+python ./train.py \
+--name pretrained \
+--deform \
+--verbose \
+--continue_train \
+--netG dual \
+--dataroot ./datasets/data/ \
+--no_instance --ngf 48 \
+--resize_or_crop scale_width \
+--loadSize 256 \
+--fineSize 256 \
+--batchSize 1 \
+--gpu_ids 0 \
+--gfm \
+--load_pretrain ./checkpoints/pretrained/ \
+--which_epoch 20 \
+--gfm_layer 0,1,2,3 \
+--sap_branches 1,5,9,13 \
+--niter 25 \
+--niter_decay 30 
