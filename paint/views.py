@@ -2,6 +2,7 @@ from django.http.response import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect, render
 from django.core.files import File
+from django.conf import settings
 
 from django.template.loader import get_template
 from django.template import RequestContext
@@ -27,7 +28,6 @@ CURR_DIR = os.getcwd()
 
 
 def home(request):
-
 
     return render(request, "paint/paintapp.html")
 
@@ -57,13 +57,16 @@ def save(request):
     f_res = face.generate_face(sketch=background)
     f_res = Image.fromarray(np.uint8(f_res))
 
-    f_res.show(title='Rostro generado')
-   
-    #data_url = "data:image/png;base64," + image_data
+    f_res.show(title="Rostro generado")
+
+    # data_url = "data:image/png;base64," + image_data
 
     p = Pic(name=iname, data=idata, etnia=irace)
     p.save()
-    return render(request, "paint/paintapp.html", )
+    return render(
+        request,
+        "paint/paintapp.html",
+    )
 
 
 def gall(request):

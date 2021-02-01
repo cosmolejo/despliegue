@@ -1,2 +1,6 @@
 *.pyc
 .vscode/*
+./paint/statig/img/*
+./media/*
+
+*/checkpoints/
